@@ -9,7 +9,10 @@ body {
 }
 
 h1 {
+    color: white;
     font-weight: 500;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 h2 {
@@ -37,9 +40,15 @@ p{
 
 header {
     background-color: var(--gray-dark);
+    padding: 1rem 0;
+}
 
 .overview {
     background-color: var(--gray);
     color: #fff;
     padding: 4rem 0;
+}
+
+figure {
+    margin-top: 2rem;
 }
