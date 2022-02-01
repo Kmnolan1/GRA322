@@ -12,6 +12,20 @@ h1 {
     font-weight: 500;
 }
 
+h2 {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    text-transform: uppercase; 
+}
+
+p{
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end]; 
@@ -23,9 +37,9 @@ h1 {
 
 header {
     background-color: var(--gray-dark);
-}
 
 .overview {
-    background-color:var(--gray);
-    color: white;
+    background-color: var(--gray);
+    color: #fff;
+    padding: 4rem 0;
 }
