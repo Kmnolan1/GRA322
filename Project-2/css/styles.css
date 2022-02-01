@@ -52,3 +52,13 @@ header {
 figure {
     margin-top: 2rem;
 }
+
+figure img {
+    margin-bottom: 1rem;
+}
+
+figcaption {
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
