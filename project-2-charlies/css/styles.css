@@ -27,8 +27,15 @@ h2 {
     font-size: 46px;
     font-weight: 500;
     letter-spacing: 2px;
-    margin-bottom: 1rem;
     margin-top: 2rem;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .hero {
@@ -55,15 +62,15 @@ table {
     letter-spacing: 1px;
     line-height: 2;
     margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+
   }
  
 p{
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 2;
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
 }
 
 .grid {
@@ -85,7 +92,7 @@ header {
 header a {
     color:var(--tan);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 header img {
@@ -117,7 +124,7 @@ header img {
 footer {
     background-color: var(--dark-brown);
     padding: 4rem 0;
-    line-height: 1;
+    line-height: .5;
 }
 
 footer p{
@@ -140,7 +147,7 @@ footer p{
 
 #hours{
     color: var(--tan);
-    line-height: 1.5;
+    line-height: -1;
     margin-top: 0;
 }
 
