@@ -1,12 +1,12 @@
 html {
-    --dark-brown: #503B33;
-    --tan: #EED7BC;
+    --dark-brown: #402921;
+    --tan: #FAF0E1;
     --orange: #E26730;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #EED7BC;
+    background-color: #FAF0E1;
 }
 
 
@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-family: "Yeseva One";
     color: #CC5621;
-    font-size: 20px;
+    font-size: 90px;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -35,8 +35,30 @@ h2 {
     bottom: 60px;
 }
 
+.links {
+    display: flex;
+    color: var(--tan);
+}
+
+.links li {
+    padding: 3rem;
+    color: var(--dark-brown);
+} 
+  
+.drinks {
+    margin-left: auto;
+}
+
+table {
+    width: 100%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+  }
+ 
 p{
-    background-image: url(brown.jpg);
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2;
@@ -49,27 +71,29 @@ p{
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end]; 
 }
 
-ul {
-    font-size: 18px;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-}
-
 .grid > * {
     grid-column: main;
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--dark-brown);
-    padding: 1rem 0;
+    padding: 1rem;
 }
 
-img, picture, video canvas, svg {
-    display: block;
-    max-width: 100%;
+header a {
+    color:var(--tan);
+    text-decoration: none;
+    font-size: 18px;
 }
+
+header img {
+    max-width: 120px;
+    max-height: 100px;
+    padding: 1rem;
+    margin-top: .5rem;
+  }
 
 .backgroundimg {
     object-fit: cover;
@@ -78,17 +102,13 @@ img, picture, video canvas, svg {
     bottom: 50px;
 }
 
-.navigation {
-    align-items: right;
-    color: var(--tan);
-    padding: 0;
-}
-
 .hero {
     background-image: url('../images/brown.jpeg');
-    padding: 40% 5% 10% 10%;
-}
+    background-position: -10% center;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
 
+}
 
 .sample {
     padding: 5rem 0;
@@ -122,4 +142,17 @@ footer p{
     color: var(--tan);
     line-height: 1.5;
     margin-top: 0;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .two-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero {
+        padding-right: 50%;
+    }
 }
