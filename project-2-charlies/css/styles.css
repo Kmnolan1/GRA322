@@ -2,158 +2,175 @@ html {
     --dark-brown: #402921;
     --tan: #FAF0E1;
     --orange: #E26730;
-}
-
-body {
+ }
+  
+ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #FAF0E1;
-}
-
-
-h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-brown);
+    display: grid;
+ }
+ 
+  
+ h1, h2, h3, h4, h5, h6 {
   font-family: "Yeseva One";
   color: #CC5621;
-}
-
-h1 {
+ }
+  
+ h1 {
     font-family: "Yeseva One";
     color: #CC5621;
-    font-size: 90px;
+    font-size: 85px;
     font-weight: 300;
     letter-spacing: 1px;
-}
-
-h2 {
+    padding-bottom: 1.5rem;
+ }
+  
+ h2 {
     font-size: 46px;
     font-weight: 500;
     letter-spacing: 2px;
     margin-top: 2rem;
-}
-
-h3 {
+ }
+  
+ h3 {
     font-size: 32px;
     font-weight: 500;
     letter-spacing: 2px;
-    margin-top: 2rem;
     margin-bottom: 2rem;
-}
-
-.hero {
+ }
+  
+ .hero {
     bottom: 60px;
-}
-
-.links {
+ }
+  
+ .hero-paragraph{
+    display: grid;
+ }
+  
+ .links {
     display: flex;
+    margin-bottom: -5rem;
     color: var(--tan);
-}
-
-.links li {
+ }
+  
+ .links li {
     padding: 3rem;
     color: var(--dark-brown);
-} 
-  
-.drinks {
-    margin-left: auto;
-}
+ }
 
-table {
+  .drinks {
+    margin-left: auto;
+ }
+  
+ table {
+    justify-content: space-between;
     width: 100%;
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 2;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
+}
 
-  }
- 
-p{
+ p{
     font-size: 20px;
     letter-spacing: 1px;
     line-height: 2;
     margin-bottom: .5rem;
     margin-top: .5rem;
-}
+ }
+  
 
-.grid {
+ .grid {
     display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end]; 
-}
-
-.grid > * {
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+ }
+  
+ .grid > * {
     grid-column: main;
-}
-
-header {
+ }
+  
+ header {
     display: flex;
     justify-content: space-between;
     background-color: var(--dark-brown);
     padding: 1rem;
-}
-
-header a {
+ }
+  
+ header a {
+    display: grid;
+    margin-top: -7rem;
     color:var(--tan);
     text-decoration: none;
     font-size: 20px;
-}
-
-header img {
+ }
+  
+ header img {
+    display: grid;
     max-width: 120px;
     max-height: 100px;
     padding: 1rem;
     margin-top: .5rem;
   }
-
-.backgroundimg {
+  
+ .backgroundimg {
     object-fit: cover;
     height: 90vh;
     width: 100vw;
     bottom: 50px;
-}
-
-.hero {
+ }
+  
+ .hero {
     background-image: url('../images/brown.jpeg');
     background-position: -10% center;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-
-}
-
-.sample {
+    padding-top: 12rem;
+    padding-bottom: 15rem;
+ }
+  
+ .sample {
     padding: 5rem 0;
-}
-
-footer {
+ }
+  
+ footer {
     background-color: var(--dark-brown);
     padding: 4rem 0;
     line-height: .5;
-}
+ }
+  
+ footer img{
+    max-width: 300px;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+ } 
 
-footer p{
+ footer p{
     margin-bottom: 0;
-}
+ }
+  
 
-#teamenu ul, #teamenu li {
+ #teamenu ul, #teamenu li {
     margin: 0;
     padding: 0;
-}
-
-#teamenu{
+ }
+  
+ #teamenu{
     text-align: left;
-}
-
-#coffeemenu ul, #coffeemenu li {
+ }
+  
+ #coffeemenu ul, #coffeemenu li {
     margin: 0;
     padding: 0;
-}
-
-#hours{
+ }
+  
+ #hours{
     color: var(--tan);
     line-height: -1;
     margin-top: 0;
-}
-
-
-
-@media screen and (min-width: 800px) {
+ }
+  
+  
+  
+ @media screen and (min-width: 800px) {
     .two-column {
         display: grid;
         grid-gap: 3rem;
@@ -162,4 +179,8 @@ footer p{
     .hero {
         padding-right: 50%;
     }
-}
+    body img {
+        padding-top: 2rem;
+    }
+ }
+ 
