@@ -95,7 +95,7 @@ tr {
 
  .grid {
     display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+    grid-template-columns: [full-start] minmax(2rem, 2fr) [main-start] minmax(0, 1280px) [main-end] minmax(2rem, 2fr) [full-end];
  }
   
  .grid > * {
@@ -180,19 +180,35 @@ tr {
     margin-top: 0;
  }
   
-  
-  
+
  @media screen and (min-width: 800px) {
     .two-column {
         display: grid;
         grid-gap: 3rem;
         grid-template-columns: 1fr 1fr;
     }
+    .reverse {
+        justify-content: space-between;
+        margin-right: 280px;
+        align-items: left;
+        display: flex;
+        flex-direction: row-reverse;
+        max-width: 2000px;
+        padding: 0rem;
+    }
+
+    .tea {
+        max-width: 550px;
+    }
+
+    body img{
+        margin-top: 5rem;
+        max-width: 550px;
+        max-height: 550px;
+    }
+
     .hero {
         padding-right: 50%;
-    }
-    body img {
-        padding-top: 2rem;
     }
  }
  
