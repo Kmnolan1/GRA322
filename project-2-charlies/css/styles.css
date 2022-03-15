@@ -133,12 +133,13 @@ tr {
     bottom: 50px;
  }
   
+
  .hero {
-    background-image: url('../images/brown.jpeg');
-    background-position: -10% center;
-    padding-top: 12rem;
-    padding-bottom: 15rem;
- }
+   background-image: url('../images/brown.jpeg');
+   background-position: -10% center;
+   padding-top: 12rem;
+   padding-bottom: 15rem;
+}
   
  .sample {
     padding: 5rem 0;
@@ -166,10 +167,6 @@ tr {
     padding: 0;
  }
   
- #teamenu{
-    text-align: left;
- }
-  
  #coffeemenu ul, #coffeemenu li {
     margin: 0;
     padding: 0;
@@ -180,7 +177,12 @@ tr {
     line-height: -1;
     margin-top: 0;
  }
-  
+
+ #location{
+   color: var(--tan);
+   line-height: -1;
+   margin-top: 0;
+}
 
  @media screen and (min-width: 800px) {
     .two-column {
@@ -286,4 +288,5 @@ tr {
     footer {
         font-size: 25px;
     }
+
  }
