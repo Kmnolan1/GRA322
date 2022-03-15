@@ -65,6 +65,7 @@ html {
   
  table {
     justify-content: space-between;
+    text-indent: initial;
     width: 100%;
     font-size: 20px;
     letter-spacing: 1px;
@@ -72,8 +73,19 @@ html {
     margin-bottom: 3rem;
 }
 
+tbody {
+    display: table-row-group;
+    vertical-align: top;
+    border-color: inherit;
+}
+
+tr {
+    font-weight: bold;
+}
+
  p{
     font-size: 20px;
+    font-weight: normal;
     letter-spacing: 1px;
     line-height: 2;
     margin-bottom: .5rem;
