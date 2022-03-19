@@ -29,10 +29,11 @@ html {
  }
   
  h2 {
-    font-size: 46px;
+    font-size: 44px;
     font-weight: 500;
     letter-spacing: 2px;
     margin-top: 2rem;
+    line-height: 1.3;
  }
   
  h3 {
@@ -227,7 +228,7 @@ td:first-child {
       max-height: 100px;
       margin-top: .5rem;
       margin-bottom: .5rem;
-      margin-left: 0;
+      margin-left: 1rem;
     }
 
    .drinks {
@@ -248,10 +249,9 @@ td:first-child {
    }
    
    section img{
-      margin-top: 9rem;
-      max-width: 350px;
-      max-height: 350px;
-      margin-left: 2rem;
+      margin-top: 6.9rem;
+      max-width: 335px;
+      max-height: 325px;
   }
 
     .two-column {
@@ -301,9 +301,9 @@ td:first-child {
    }
 
     section img{
-        margin-top: 9rem;
+        margin-top: 8.1rem;
         max-width: 600px;
-        max-height: 600px;
+        max-height: 575px;
     }
 
     .hero {
@@ -369,5 +369,7 @@ td:first-child {
     footer {
         font-size: 25px;
     }
-
+    header img {
+       margin-left: 13.5rem;
+    }
  }
