@@ -191,23 +191,22 @@ td:first-child {
    margin-top: 0;
 }
 
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 490px) {
    .hero-paragraph {
       padding-left: .25rem;
       padding-bottom: 12rem;
   }
   .hero-title {
      padding-left: .25rem;
-     padding-top: 14rem;
+     padding-top: 9rem;
   }
     
    .hero {
-     background-image: url('../images/brown.jpeg');
-     background-position: 35% 100%;
-     background-repeat: no-repeat;
-     background-size: cover;
-     padding-left: 1.9rem;
-     padding-right: 7rem;
+      background-image: url('../images/brown.jpeg');
+      background-position: 55% 1000%;
+      background-repeat: no-repeat;
+      padding-left: 1.9rem;
+      padding-right: 7rem;
   }
 }
 
@@ -278,7 +277,7 @@ td:first-child {
   }
 }
 
- @media screen and (min-width: 1450px) {
+ @media screen and (min-width: 1300px) {
     .two-column {
         display: grid;
         grid-gap: 3rem;
@@ -323,6 +322,7 @@ td:first-child {
         font-family: "Yeseva One";
         color: #CC5621;
         font-size: 90px;
+        font-weight: normal;
         letter-spacing: 1px;
         padding-bottom: 1.5rem;
      }
