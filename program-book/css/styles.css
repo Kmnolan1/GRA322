@@ -1,0 +1,129 @@
+html {
+    --dark-gray: #3D3E40;
+    --mid-gray: #9A9B9F;
+    --light-gray: #F2F2F2;
+ }
+  
+ body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--light-gray);
+    color: var(--dark-gray);
+ }
+
+ .grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(2rem, 2fr) [main-start] minmax(0, 1280px) [main-end] minmax(2rem, 2fr) [full-end];
+ }
+  
+ h1 {
+  color: var(--dark-gray);
+  background-color: var(--mid-gray);
+  display: grid;
+  font-size: 48px;
+  line-height: 1;
+  padding-left: 1.3rem;
+  text-transform: uppercase;
+ }
+
+ h3 {
+     padding-bottom: 1rem;
+ }
+
+ .nav {
+    color: var(--mid-gray);
+    list-style: none;
+    line-height: 1.75;
+ }
+
+ li {
+     padding-bottom: 1.5rem;
+ }
+
+ a {
+    color:var(--mid-gray);
+    text-decoration: none;
+    font-size: 16px;
+ }
+
+ header {
+     background-color: var(--dark-gray);
+     padding-top: 12rem;
+     padding-bottom: .5rem;
+     padding-left: 43%;
+ }
+
+ .herocaption {
+     background-color: var(--dark-gray);
+     color: var(--mid-gray);
+     font-size: 16px;
+     grid-template-columns: 1fr 1fr;
+     display: grid;
+     gap: 1.25rem;
+     max-width: 1400px;
+     margin: 0 auto;
+     line-height: 2.5;
+     padding-top: 2rem;
+     padding-bottom: 5rem;
+     padding-left: 10%;
+     padding-right: 10%;
+ }
+
+ p {
+     line-height: 1.5;
+ }
+
+ .two-four {
+    font-size: 16px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 1rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    line-height: 2.5;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+ }
+
+ .imagegrid1 {
+     display: grid;
+     gap: 1rem;
+ }
+
+ .imagegrid2 {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.imagegrid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.process {
+    margin: 10%;
+}
+
+.final-desktop {
+    margin: 10%;
+}
+
+.final-mobile {
+    margin: 10%;
+}
+
+.description {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+iframe {
+    max-width: 375px;
+}
+
+
+@media screen and (min-width: 700px) {
+
+}
+
