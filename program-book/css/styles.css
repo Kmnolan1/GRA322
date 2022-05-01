@@ -32,10 +32,10 @@ html {
     background: var(--mid-gray);
     content: ' ';
     display: block;
-    height: calc(100% - 15px);
+    height: calc(100% - 16px);
     left: 0;
     position: absolute;
-    top: 6.5px;
+    top: 7px;
     width: 100%;
     z-index: -1;
   }
