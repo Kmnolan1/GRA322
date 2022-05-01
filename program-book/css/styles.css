@@ -101,6 +101,10 @@ html {
      padding-right: 10%;
  }
 
+.apphero {
+    padding-bottom: 3.5rem;
+}
+
 .page {
     background-color: var(--light-gray);
     padding-top: 3rem;
@@ -225,7 +229,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	animation:         ca3_fade_move_down 3s ease-in-out infinite;
 }
 
-
 /*animated scroll arrow animation*/
 @-webkit-keyframes ca3_fade_move_down {
   0%   { -webkit-transform:translate(0,-5px); opacity: 0;  }
@@ -249,7 +252,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     }
 
     header{
-        padding-top: 20rem;
+        padding-top: 16rem;
     }
 
     .herocaption {
@@ -317,9 +320,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
         font-size: 20px;
     }
 
-    header{
-        padding-top: 16rem;
-    }
 
     .herocaption {
         font-size: 18px;
