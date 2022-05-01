@@ -252,12 +252,12 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     }
 
     header{
-        padding-top: 16rem;
+        padding-top: 19rem;
     }
 
     .herocaption {
         padding-top: 6rem;
-        padding-bottom: 5rem;
+        padding-bottom: 8rem;
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -320,6 +320,9 @@ html body [data-ca3_iconfont="ETmodules"]::before {
         font-size: 20px;
     }
 
+    header{
+        padding-top: 16rem;
+    }
 
     .herocaption {
         font-size: 18px;
